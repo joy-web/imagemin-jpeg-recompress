@@ -1,7 +1,7 @@
 'use strict';
 const execBuffer = require('exec-buffer');
 const isJpg = require('is-jpg');
-const jpegRecompress = require('jpeg-recompress-bin');
+const jpegRecompress = require('@weus/jpeg-recompress-bin');
 
 module.exports = opts => buf => {
 	opts = Object.assign({}, opts);

@@ -1,5 +1,5 @@
 {
-  "name": "imagemin-jpeg-recompress",
+  "name": "@weus/imagemin-jpeg-recompress",
   "version": "5.1.0",
   "description": "jpeg-recompress imagemin plugin",
   "license": "MIT",
@@ -43,7 +43,7 @@
   "dependencies": {
     "exec-buffer": "^3.0.0",
     "is-jpg": "^1.0.0",
-    "jpeg-recompress-bin": "^3.0.1"
+    "@weus/jpeg-recompress-bin": ">3.0.1"
   },
   "devDependencies": {
     "ava": "*",
